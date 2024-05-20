@@ -16,9 +16,9 @@ const HalfRenderer = ({ todayEvents, hourIndex, secondHalf }) => {
         .map((event) => (
           <div
             className="p-1 text-xs bg-amber-300 rounded text-gray-700"
-            key={event.eventTitle}
+            key={event.title}
           >
-            {event.eventTitle}
+            {event.title}
           </div>
         ))}
     </div>

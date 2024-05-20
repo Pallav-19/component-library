@@ -17,7 +17,7 @@ function getRandomDate() {
 }
 
 export const events = Array.from({ length: 1000 }, () => ({
-  eventTitle: faker.company.catchPhrase(),
+  title: faker.company.catchPhrase(),
   date: getRandomDate(),
 }));
 

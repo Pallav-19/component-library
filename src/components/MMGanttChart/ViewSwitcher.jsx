@@ -9,7 +9,6 @@ export const ViewSwitcher = ({
   isChecked,
   viewMode,
 }) => {
-  console.log(viewMode);
   return (
     <div className="container flex w-full gap-4 items-center">
       {AVAILABLE_VIEW_MODES.map((mode) => (

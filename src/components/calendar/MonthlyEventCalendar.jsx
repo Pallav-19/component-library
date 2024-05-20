@@ -31,7 +31,7 @@ const EventsByDayMapping = ({ todaysEvent }) => (
   <div className="h-36 flex flex-col gap-1 overflow-y-scroll no-scrollbar mt-1">
     {todaysEvent.map((event, index) => (
       <p className="bg-amber-300 p-2 rounded text-gray-700" key={index}>
-        {event.eventTitle}
+        {event.title}
       </p>
     ))}
   </div>
@@ -40,7 +40,7 @@ const EventsByDayMapping = ({ todaysEvent }) => (
 EventsByDayMapping.propTypes = {
   todaysEvent: PropTypes.arrayOf(
     PropTypes.shape({
-      eventTitle: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,
     })
   ).isRequired,
 };

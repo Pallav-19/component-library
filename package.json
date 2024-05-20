@@ -12,6 +12,12 @@
   "dependencies": {
     "@bitnoi.se/react-scheduler": "^0.2.0",
     "@faker-js/faker": "^8.4.1",
+    "@fullcalendar/core": "^6.1.11",
+    "@fullcalendar/daygrid": "^6.1.11",
+    "@fullcalendar/list": "^6.1.11",
+    "@fullcalendar/react": "^6.1.11",
+    "@fullcalendar/timegrid": "^6.1.11",
+    "@unicef/react-org-chart": "^0.3.4",
     "date-fns": "^3.6.0",
     "gantt-task-react": "^0.3.9",
     "prop-types": "^15.8.1",
