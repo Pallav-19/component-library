@@ -2,10 +2,11 @@ import { GrSchedule } from "react-icons/gr";
 import { TbTimelineEventText, TbTimelineEventMinus } from "react-icons/tb";
 import { FaChartGantt } from "react-icons/fa6";
 import { GiOrganigram } from "react-icons/gi";
+import { RiCalendarScheduleFill } from "react-icons/ri";
 
 import Calendar from "../pages/Calendar";
 import Timeline from "../pages/Timeline";
-import GanttChart from "../pages/ReactScheduler";
+import ReactScheduler from "../pages/ReactScheduler";
 import OrganizationChart from "../pages/OrganizationChart";
 import ChronoTimeline from "../pages/ChronoTimeline";
 import MMGanttChart from "../pages/MMGanttChart";
@@ -31,8 +32,8 @@ export const AppRoutes = [
     id: 3,
     title: "React Scheduler",
     to: "/react-scheduler",
-    Icon: FaChartGantt,
-    element: <GanttChart />,
+    Icon: RiCalendarScheduleFill,
+    element: <ReactScheduler />,
   },
 
   {
